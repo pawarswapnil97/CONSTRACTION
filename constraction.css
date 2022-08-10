@@ -1,0 +1,167 @@
+/*/navbar/*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    transition: all 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:orangered !important;
+}	
+html{
+	scroll-behavior: smooth;
+}
+/*body*/
+.slider{
+	background-image: url(img1/body.jpg);
+	background-size: 100% 100%;
+	height:auto;
+}
+.content h1{
+	font-family: Raleway; 
+	font-weight: 600;  
+	font-size: 52px;
+
+}
+.aunderline{
+	width: 66px;
+    height: 3px;
+    margin-left: 10%;
+    margin-top: -10px;
+}
+.abouthead{
+	text-indent:10px;
+	font-style: italic; 
+	margin-top: -8px;
+}
+.aboutpara{
+	line-height: 1.8;
+	font-size: 15px;
+}
+
+/*servises*/
+.servicebanner{
+	background-image: url(img1/ceo.jpg);
+	height:auto;
+}
+.sunderline{
+	width: 66px;
+    height: 3px;
+    margin-left:60px;
+    margin-top: -10px;
+}
+
+
+.sicon i{
+	color: gold;
+    font-size:19px;
+    border: 3px solid gold;
+    padding: 10px;
+    float: left;
+}
+
+.spara{
+	font-size:14px;
+}
+
+/* /why choose us/ */
+.wpara{
+	font-size:15px;
+	word-spacing:2px;
+	line-height: 1.8;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+/* /Our team/ */
+
+.team1{
+	background-image: url(img1/our-team.jpg);
+	background-size: 100% 100%;
+	height:auto;
+}
+.team1div{
+	border:1px solid #80808026;
+	box-sizing: border-box;
+}
+.t1para{
+	font-size:15px;
+}
+.team2{
+	position: relative;
+    top: 154px;
+}
+
+/* /Testmonial section/ */
+
+.tsection{
+	background-image: url(img1/testimonial-bg.jpg);
+	background-size: 100% 100%;
+	height:auto;
+}
+.carousel-item img{
+   border-radius: 50%;
+
+}
+.carousel-item .p1{
+	font-size: 30px;
+	font-style: italic;
+}
+
+/* /our clients/ */
+
+.client{
+	background-image: url(img1/client.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 100% 100%;
+}
+.cinfo{
+	margin-top: -10px;
+	font-size: 14px;
+}
+
+/* /contcat us/ */
+
+.contactinfo input[type="text"]{
+	width: 90%;
+    height: 45px;
+    font-size: 14px;
+    margin-top: 14px;
+    padding: 26px;
+    border: 1px solid #8080809c;
+}
+.contactinfo input[type="email"]{
+	width: 90%;
+    height: 45px;
+    font-size: 14px;
+    margin-top: 14px;
+    padding: 26px;
+    border: 1px solid #8080809c;
+}
+.contactinfo textarea{
+	width: 90%;
+    height:130px;
+    padding:10px;
+    font-size: 14px;
+    margin-top: 14px;
+    border: 1px solid #8080809c;
+}
+.pbtn{
+	border:2px solid white;
+	color:white;
+}
+
+/* footer */
+
+.footbanner{
+	background-image: url(img1/footer.jpg);
+	background-size: 100% 100%;
+	height:350px;
+}
+.lfoot{
+	background-color:#1a1c27;
+}
+@media(max-width: 667px){
+	.body{
+		height: auto;
+	}
+}
